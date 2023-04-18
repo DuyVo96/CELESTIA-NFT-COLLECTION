@@ -3,7 +3,7 @@ export default function handler(req, res) {
   const tokenId = req.query.tokenId;
   // As all the images are uploaded on github, we can extract the images from github directly.
   const image_url =
-    "https://raw.githubusercontent.com/DuyVo96/nft-collection-tutorial/main/my-app/public/cryptodevs/";
+    "https://raw.githubusercontent.com/DuyVo96/NFT-Celestia/main/public/CelestiaNft/";
   // The api is sending back metadata for a Crypto Dev
   // To make our collection compatible with Opensea, we need to follow some Metadata standards
   // when sending back the response from the api
