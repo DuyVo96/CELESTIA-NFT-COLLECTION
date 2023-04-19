@@ -174,6 +174,8 @@
 
 
 @media only screen and (max-width:992px) {
+ 
+
   .mobile {
     align-items: center;
 
@@ -204,10 +206,11 @@
     overflow: hidden;
     margin-right: 50px;
     align-items: center;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .image_change {
+    margin-top:65px;
     height: 200px;
     width: 200px;
     overflow:hidden;
