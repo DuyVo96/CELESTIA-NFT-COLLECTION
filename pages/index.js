@@ -4,8 +4,10 @@ import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
 import { abi, NFT_CONTRACT_ADDRESS } from "../constants";
 import styles from "../styles/Home.module.css";
+import Confetti from "react-confetti";
 
 export default function Home() {
+  const [isMinted, setIsMinted] = useState(false);
   const [walletConnected, setWalletConnected] = useState(false);
   const [presaleStarted, setPresaleStarted] = useState(false);
   const [presaleEnded, setPresaleEnded] = useState(false);
@@ -54,7 +56,8 @@ export default function Home() {
       setLoading(true);
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a Crypto Dev!");
+      setIsMinted(true);
+      setTimeout(() => setIsMinted(false), 10000);
     } catch (err) {
       console.error(err);
     }
@@ -70,7 +73,8 @@ export default function Home() {
       setLoading(true);
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a Crypto Dev!");
+      setIsMinted(true);
+      setTimeout(() => setIsMinted(false), 10000);
     } catch (err) {
       console.error(err);
     }
@@ -315,9 +319,26 @@ export default function Home() {
             Power-up with Data Availability Layer.
           </div>
           <div className={styles.description}>
-            {tokenIdsMinted}/20 have been minted.
+            Contract: 0x59ED96b6cE44687617188FE2e7C59F5f5e688Ad6.
+          </div>
+          <div className={styles.description}>
+            You can add Contract address and tokenId to Metamask to see your
+            NFT.
+          </div>
+          <div className={styles.description}>
+            {tokenIdsMinted}/30 have been minted.
           </div>
           {renderButton()}
+          {isMinted && (
+            <div>
+              <div className={styles.description}>
+                Congratulations! You have successfully minted your Celestia NFT.
+              </div>
+              <div className={styles.description}>
+                Your tokenId : {tokenIdsMinted}
+              </div>
+            </div>
+          )}
         </div>
         <div>
           <img
@@ -325,6 +346,11 @@ export default function Home() {
             src={imageUrl}
             alt="Random Celestia NFT"
           />
+          {isMinted && (
+            <>
+              <Confetti width={window.innerWidth} height={window.innerHeight} />
+            </>
+          )}
         </div>
       </div>
 
