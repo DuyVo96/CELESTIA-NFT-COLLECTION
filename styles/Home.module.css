@@ -17,6 +17,7 @@
   align-items: center;
   background: #050801;
   color: white;
+  flex-direction: column;
 }
 
 .image {
@@ -69,6 +70,7 @@
   overflow: hidden;
   margin-right: 50px;
   align-items: center;
+  font-size: 30px;
  
 }
 .neon__button a:hover{

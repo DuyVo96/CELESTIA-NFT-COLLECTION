@@ -224,7 +224,17 @@ export default function Home() {
     }
 
     if (loading) {
-      return <button className={styles.button}>Loading...</button>;
+      return (
+        <div class={styles.neon__button} onClick={connectWallet}>
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Loading...
+          </a>
+        </div>
+      );
     }
 
     if (isOwner && !presaleStarted) {
@@ -253,8 +263,7 @@ export default function Home() {
       return (
         <div>
           <div className={styles.description}>
-            Presale has started!!! If your address is whitelisted, Mint a Crypto
-            Dev 🥳
+            Presale has started!!!Mint if you are whitelisted 🔥🔥🔥
           </div>
 
           <div class={styles.neon__button} onClick={presaleMint}>
@@ -263,7 +272,7 @@ export default function Home() {
               <span></span>
               <span></span>
               <span></span>
-              Presale Mint 🚀🚀🚀
+              Presale Mint 🔥🔥🔥
             </a>
           </div>
         </div>
@@ -278,7 +287,7 @@ export default function Home() {
             <span></span>
             <span></span>
             <span></span>
-            Public Mint 🚀🚀🚀
+            Public Mint 🔥🔥🔥
           </a>
         </div>
       );
@@ -294,13 +303,19 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>CELESTIA NFT COLLECTION</h1>
+          <h1 className={styles.title}>
+            CELESTIA NFT COLLECTION on ⧫ Ethermint
+          </h1>
           <div className={styles.description}>
             As an Early Node Runner on Celestia Network, you can mint your NFT
-            designed by duyvo102#3738
+            designed by duyvo102#3738.
           </div>
           <div className={styles.description}>
-            {tokenIdsMinted}/20 have been minted
+            30 items with 10 Build Modular, 10 Run Different Nodes and 10
+            Power-up with Data Availability Layer.
+          </div>
+          <div className={styles.description}>
+            {tokenIdsMinted}/20 have been minted.
           </div>
           {renderButton()}
         </div>
@@ -314,7 +329,10 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made by duyvo102#3738 with &#10084;&#10084;&#10084;
+        <div>Made by duyvo102#3738 with &#10084;&#10084;&#10084;</div>
+        <div>
+          Node Identity: 12D3KooWMTMwWoXW1HLWNNnS2wzGMYJ21hXLCgjS7TRFy1sYBvgo
+        </div>
       </footer>
     </div>
   );
