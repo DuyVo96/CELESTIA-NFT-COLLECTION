@@ -105,3 +105,5 @@ a {
     color-scheme: dark;
   }
 }
+
+@media only screen and (max-width:992px) {}

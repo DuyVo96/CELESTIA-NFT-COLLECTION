@@ -301,12 +301,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Crypto Devs</title>
+        <title>CELESTIA NFT</title>
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
-        <div>
+        <div className={styles.mobile}>
           <h1 className={styles.title}>
             CELESTIA NFT COLLECTION on ⧫ Ethermint
           </h1>
@@ -340,7 +340,7 @@ export default function Home() {
             </div>
           )}
         </div>
-        <div>
+        <div className={styles.image_change}>
           <img
             className={styles.image}
             src={imageUrl}
