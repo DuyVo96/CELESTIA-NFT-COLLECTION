@@ -200,4 +200,6 @@ Now you can add Contract address and tokenId to metamask to see your NFT infor:
 
 After 5 minutes public will start and everyone can mint untill 30 slots are over 🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
+## 🔥🔥🔥 At the time project team review my bonus task, the presale mint was over and team can only mint public 🔥🔥🔥
+
 # FINISH
