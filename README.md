@@ -37,7 +37,7 @@ npm install @openzeppelin/contracts
   ```
  I wrote a Whitelist smartcontract and deployed it for first 30 users to sign and get whitelisted.
  
- Contract: ```0xc5DDAdBEE65558dD174DBCd43362944EEe5746aC ```
+My Contract: ```0xc5DDAdBEE65558dD174DBCd43362944EEe5746aC ```
  
  You can see two of this repo for more informations:
  
@@ -96,6 +96,9 @@ npx hardhat compile
 
 npx hardhat run scripts/deploy.js --network ethermint
   ```
+ 
+  My Contract: ```0xc5DDAdBEE65558dD174DBCd43362944EEe5746aC ```
+   
  The output in terminal will look like:
  
  ![image](https://user-images.githubusercontent.com/85976363/233338001-9f138244-ef4c-4ce0-a97d-42712ced6b26.png)
@@ -137,7 +140,66 @@ npm install ethers@5
   ```
 npm run dev
   ```
+ ## III. Let's test my the dapp
+ 1. Set up your metamask with Ethermint network:
  
+ - Network Name: Ethermint
+ - New RPC URL: http://localhost:8545 or https://your.custom.ip.address:port
+ - Chain ID: 9000
+ - Currency symbol: CTE
  
+ ![image](https://user-images.githubusercontent.com/85976363/233341527-f6ebeb39-a582-486d-8c1b-ff8fccfc216f.png)
+
  
+ 2. Go this link to register to be whitelisted
  
+ https://whitelist-ui-six.vercel.app/
+ 
+ Connect your wallet and click ```JOIN THE WHITELIST``` button
+ 
+ ![image](https://user-images.githubusercontent.com/85976363/233341655-dca78402-fc30-4334-9d5d-62ac77c5aef6.png)
+
+ Confirm tx and waiting:
+ 
+ ![image](https://user-images.githubusercontent.com/85976363/233341798-13ea3304-5ff5-4177-80ca-f616e6d86216.png)
+ 
+ After tx confirmed the screen will look like:
+ 
+ ![image](https://user-images.githubusercontent.com/85976363/233341942-18054ee6-2ee3-45b9-b767-621883c74930.png)
+
+You can try with another accounts cause total whitelist is 30 slots.
+
+I tried with another 2 wallets and the number increased to 3 joined the Whitelist.
+
+![image](https://user-images.githubusercontent.com/85976363/233342630-d6ec6e02-25ff-4019-85b7-abc83dcb9d27.png)
+
+ 3. Go this link to mint NFT
+ 
+ Connect with the wallet that you used to deployed contract in last part to ```START PRESALE```
+ 
+ ![image](https://user-images.githubusercontent.com/85976363/233349469-3fc78aa7-fbc0-4594-87f3-42dd3afb67dd.png)
+
+Confirm tx and waiting:
+
+![image](https://user-images.githubusercontent.com/85976363/233349585-5fe141b2-55cc-4c08-8486-56f47044cbbe.png)
+
+Now the whitelist addresses can mint NFT:
+
+![image](https://user-images.githubusercontent.com/85976363/233349696-9e6d7ac5-f8ba-4700-a460-3f6620299c10.png)
+
+I start to mint:
+![image](https://user-images.githubusercontent.com/85976363/233349766-414e7a81-56f9-4ff6-87f5-38cd1a4ca5ae.png)
+![image](https://user-images.githubusercontent.com/85976363/233349925-bb966a8e-bbd0-49dc-8fac-f1c9471c2493.png)
+
+
+Now you can add Contract address and tokenId to metamask to see your NFT infor:
+
+![image](https://user-images.githubusercontent.com/85976363/233350632-cc68cd60-0852-4b0c-91c3-bd8b253d4399.png)
+
+![image](https://user-images.githubusercontent.com/85976363/233350673-1f4e7cee-fa21-4eb7-8069-37c58043cdd0.png)
+
+After 5 minutes public will start and everyone can mint untill 30 slots are over 🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+## 🔥🔥🔥 At the time project team review my bonus task, the presale mint was over and team can only mint public 🔥🔥🔥
+
+# FINISH
