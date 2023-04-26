@@ -319,7 +319,7 @@ export default function Home() {
             Power-up with Data Availability Layer.
           </div>
           <div className={styles.description}>
-            Contract: 0x791620F8dE4c4A253da7aD77f965213E7936cE94.
+            Contract: 0xe56d721aBb6D7B0614eA4C7f4d8dFC0cad26e757.
           </div>
           <div className={styles.description}>
             You can add Contract address and tokenId to Metamask to see your
