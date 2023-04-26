@@ -97,11 +97,12 @@ npx hardhat compile
 npx hardhat run scripts/deploy.js --network ethermint
   ```
  
-  My Contract: ```0xe56d721aBb6D7B0614eA4C7f4d8dFC0cad26e757 ```
+  My Contract: ```0xd401068fE1822E293Fff936320Ed90832CB160dD ```
    
  The output in terminal will look like:
  
-![image](https://user-images.githubusercontent.com/85976363/234471406-9b392d10-5731-492d-b293-91715282be57.png)
+![image](https://user-images.githubusercontent.com/85976363/234489485-7737e748-604f-4e19-a082-97554899518d.png)
+
 
  
  Save this address to use on UI part.
@@ -178,34 +179,43 @@ I tried with another 2 wallets and the number increased to 3 joined the Whitelis
  
  Connect with the wallet that you used to deployed contract in last part to ```START PRESALE```
  
- ![image](https://user-images.githubusercontent.com/85976363/233349469-3fc78aa7-fbc0-4594-87f3-42dd3afb67dd.png)
+![image](https://user-images.githubusercontent.com/85976363/234489775-93c70ea1-62a0-4904-a5c0-0b9c7e1ce5a0.png)
+
 
 Confirm tx and waiting:
 
-![image](https://user-images.githubusercontent.com/85976363/233349585-5fe141b2-55cc-4c08-8486-56f47044cbbe.png)
+![image](https://user-images.githubusercontent.com/85976363/234489917-bcd14abb-adb2-4277-a8bd-db110e50b04a.png)
+
 
 Now the whitelist addresses can mint NFT:
 
-![image](https://user-images.githubusercontent.com/85976363/233349696-9e6d7ac5-f8ba-4700-a460-3f6620299c10.png)
+![image](https://user-images.githubusercontent.com/85976363/234490009-760af3a8-7414-4bea-9ae5-b86477f1b749.png)
+
 
 I start to mint:
-![image](https://user-images.githubusercontent.com/85976363/233349766-414e7a81-56f9-4ff6-87f5-38cd1a4ca5ae.png)
-![image](https://user-images.githubusercontent.com/85976363/233349925-bb966a8e-bbd0-49dc-8fac-f1c9471c2493.png)
+
+![image](https://user-images.githubusercontent.com/85976363/234490123-2e7b9c56-b1c5-4286-845f-b146f54122ff.png)
+
+![image](https://user-images.githubusercontent.com/85976363/234490233-13674b2e-8b00-4cc9-a105-ad4d703137a1.png)
+
 
 
 Now you can add Contract address and tokenId to metamask to see your NFT infor:
 
-![image](https://user-images.githubusercontent.com/85976363/233350632-cc68cd60-0852-4b0c-91c3-bd8b253d4399.png)
+![image](https://user-images.githubusercontent.com/85976363/234490387-7b564cb4-2471-482b-88a6-7abb7b6331e1.png)
 
-![image](https://user-images.githubusercontent.com/85976363/233350673-1f4e7cee-fa21-4eb7-8069-37c58043cdd0.png)
+![image](https://user-images.githubusercontent.com/85976363/234490463-02ba0bb9-c268-4d7c-aa91-24d086924eb3.png)
+
 
 After 5 minutes public will start and everyone can mint untill 30 slots are over 🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-## 🔥 At the time project team review my bonus task, the presale mint was over and team can only mint public 🔥
+## 🔥 At the time project team review my bonus task, I deployed NFT contract with whitelist contract so only my previous address that joined whitelist can mint on PRESALE MINT, at the team reviewing my task, the presale mint was over and team can only mint public 🔥
+
+## 🔥 Dm me on discord: duyvo102#3738 if you need some CTE to test my dapp 🔥
 
 ## 🔥 Because sometime node run not stable so I must restart node and ethermint so the final NFT contract can be change cause I must deploy again 🔥
 
-## 🔥 Final contract: 0xe56d721aBb6D7B0614eA4C7f4d8dFC0cad26e757 🔥
+## 🔥 Final contract: 0xd401068fE1822E293Fff936320Ed90832CB160dD 🔥
 
 
 # FINISH
