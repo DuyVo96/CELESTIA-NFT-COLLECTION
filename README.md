@@ -37,13 +37,13 @@ npm install @openzeppelin/contracts
   ```
  I wrote a Whitelist smartcontract and deployed it for first 30 users to sign and get whitelisted.
  
-My Contract: ```0xc5DDAdBEE65558dD174DBCd43362944EEe5746aC ```
+My Contract: ```0x3937629E2Ff82eE9F44835077885f9013f5dE4C5 ```
  
  You can see two of this repo for more informations:
  
  https://github.com/DuyVo96/Whitelist-Contract
  
- https://github.com/DuyVo96?tab=repositories
+https://github.com/DuyVo96/Whitelist-UI
  
  The link of UI: https://whitelist-ui-six.vercel.app/
  
@@ -72,7 +72,7 @@ npm install dotenv
  
   
   ```
-HTTP_URL="add-quicknode-http-provider-url-here"
+HTTP_URL="rpc"
 
 PRIVATE_KEY="add-the-private-key-here"
   ```
@@ -97,11 +97,12 @@ npx hardhat compile
 npx hardhat run scripts/deploy.js --network ethermint
   ```
  
-  My Contract: ```0xc5DDAdBEE65558dD174DBCd43362944EEe5746aC ```
+  My Contract: ```0xe56d721aBb6D7B0614eA4C7f4d8dFC0cad26e757 ```
    
  The output in terminal will look like:
  
- ![image](https://user-images.githubusercontent.com/85976363/233338001-9f138244-ef4c-4ce0-a97d-42712ced6b26.png)
+![image](https://user-images.githubusercontent.com/85976363/234471406-9b392d10-5731-492d-b293-91715282be57.png)
+
  
  Save this address to use on UI part.
 
@@ -200,6 +201,11 @@ Now you can add Contract address and tokenId to metamask to see your NFT infor:
 
 After 5 minutes public will start and everyone can mint untill 30 slots are over 🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-## 🔥🔥🔥 At the time project team review my bonus task, the presale mint was over and team can only mint public 🔥🔥🔥
+## 🔥 At the time project team review my bonus task, the presale mint was over and team can only mint public 🔥
+
+## 🔥 Because sometime node run not stable so I must restart node and ethermint so the final NFT contract can be change cause I must deploy again 🔥
+
+## 🔥 Final contract: 0xe56d721aBb6D7B0614eA4C7f4d8dFC0cad26e757 🔥
+
 
 # FINISH
