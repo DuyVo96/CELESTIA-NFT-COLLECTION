@@ -72,7 +72,7 @@ npm install dotenv
  
   
   ```
-HTTP_URL="add-quicknode-http-provider-url-here"
+HTTP_URL="rpc"
 
 PRIVATE_KEY="add-the-private-key-here"
   ```
